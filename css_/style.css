@@ -1,9 +1,9 @@
 /* Personalização geral */
 
-    /* Fonte de Letras */
+/* Fonte de Letras */
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 
-    /* Retira bordas, margens. Adicona a Fonte,
+/* Retira bordas, margens. Adicona a Fonte,
     e deixa que os elementos filhos não utrpassem os elementos pais.*/
 * {
     padding: 0;
@@ -14,7 +14,7 @@
 }
 
 
-    /*Corpo do Projeto*/
+/*Corpo do Projeto*/
 body {
     background-image: url("../images/background.jpg");
     background-position: center;
@@ -22,7 +22,7 @@ body {
 }
 
 
-    /* Estilização dos Botões */
+/* Estilização dos Botões */
 button {
     background-color: rgba(255, 255, 255, 0.3);
     color: #08295e;
@@ -56,7 +56,7 @@ button i {
 }
 
 
-    /* Estilização dos Campos de Textos */
+/* Estilização dos Campos de Textos */
 input,
 select {
     max-width: 190px;
@@ -68,7 +68,7 @@ select {
     outline: none;
     border: none;
     line-height: 1.15;
-    box-shadow: 1px 10px 20px -18px;
+   
 }
 
 input,
@@ -81,6 +81,27 @@ input,
 select:hover {
     outline: 1px solid lightgrey;
 }
-
 /* Personalizações gerais finalizada */
 
+/* Esconder auxilio para o JavaScript*/
+.hide {
+    display: none;
+}
+
+
+/* Centralização e personalização do conteiner do ToDoList*/
+.todo-conteiner {
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+
+/* Cabeçalho do ToDoList */
+.todo-conteiner header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #5a5757;
+}
