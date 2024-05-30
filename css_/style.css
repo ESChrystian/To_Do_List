@@ -93,7 +93,7 @@ select:hover {
 .todo-conteiner {
     max-width: 450px;
     margin: 3rem auto;
-    background-color: #fdfdfd;
+    background-color: #aceafb;
     padding: 1.5rem;
     border-radius: 15px;
 }
@@ -105,3 +105,129 @@ select:hover {
     padding: 0 1rem 1rem;
     border-bottom: 1px solid #5a5757;
 }
+
+/* Personalização dos campos do formulário */
+    /* Adiciona margem e separa com uma linha  */
+#todo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #CCC;
+}
+
+
+    /* Parágrafo e fonte no texto acima dos inputs*/
+#todo-form p, #edit-form p{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+
+    /* Alinha os componentes todo-form e edit-form presentes na div form-control*/
+.form-control{
+    display: flex;
+}
+
+
+    /* Mini espaçamento do input para o botão*/
+.form-control input{
+    margin-right: 0.3rem;
+}
+
+
+    /* Mini espaçamento do botão cancelar para o input*/
+#cancel-edit-btn  {
+    margin-top: 1rem;
+}
+
+    
+/* Barra de Ferramentas */
+    /* Alinha os campos pesquisa e filtro */
+#toolbar {
+    padding: 1rem;
+    padding-bottom: 1px solid #CCC;
+    display: flex;
+}
+
+
+    /* Espaçamento do texto com os campos*/
+#toolbar h4 {
+    margin-bottom: .5rem;
+}
+
+
+    /* Espaçamento do campo pesquisa para o campo de
+     filtro com uma linha */
+#search {
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+    /* Alinha botão de apagar com o campo de pesquisa */
+#search form {
+    display: flex;
+}
+
+
+    /* Mini espaçamento entre o botão apagar e o campo de pesquisa */
+#search input {
+    width: 100%;
+    margin-right: 0.3rem;
+}
+
+
+    /* Espaçamento do campo flex e deixe o botão select abaixo*/
+#filter {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+    /* Aumenta a largura do select */
+#filter select {
+    flex: 1;
+}
+
+/* Lista do "ToDoList" */
+
+/* Espaçamento dos afazeres */
+.todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    transition: .3s;
+}
+
+
+/* Espaçamento do texto */
+.todo h3 {
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+
+/* Espaçamento dos botões */
+.todo button {
+    margin-left: .4rem;
+}
+
+
+/* Estilização para quando a tarefa estiver pronta */
+/* Cor de Fundo */
+.done {
+    background-color:#08295e;
+}
+/* Personalização do texto */
+.done h3 {
+    color: #fff;
+    text-decoration: line-through;
+    font-style: italic;
+}
+/* Formulário Finalizado */
+
+
+
