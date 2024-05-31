@@ -184,5 +184,5 @@ Com essas explicações detalhadas, você agora tem um entendimento completo de 
 **Documentação:**
 [Chrystian de Almeida Silva 🙋](https://github.com/ESChrystian)
 
-**Meu Linkedin**: [Feed]()
+**Meu Linkedin**: [Feed](https://www.linkedin.com/in/chrystianalmeida-coder/recent-activity/all/)
 
